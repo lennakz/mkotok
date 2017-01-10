@@ -1,0 +1,86 @@
+/* Header */
+
+.header {
+  background-color: lightgrey;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+.header img {
+  -webkit-filter: grayscale(40%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(40%);
+  margin: auto;
+}
+
+/* Navigation Bar */
+
+.brand-text {
+  font-family: cursive;
+}
+
+/* Main Content */
+
+.main-content {
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.education {
+  padding-top: 0;
+}
+
+.main-content img {
+  margin: auto;
+}
+
+.home-picture {
+  text-align: center;
+}
+
+.skills {
+  background-color: lightgrey;
+}
+
+.skills i {
+  font-size: 70px;
+}
+
+.skill-level i {
+  font-size: 15px;
+}
+
+.future-skills i {
+  font-size: 40px;
+}
+
+/* Footer */
+
+.footer {
+  position: relative;
+  background-color: lightgrey;
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+ .contact-icons {
+   margin: 5px;
+   display: inline;
+   font-size: 50px;
+ }
+
+ i {
+   color: grey;
+ }
+
+ i:hover {
+   color: #4aaef9;
+ }
+
+.copyright {
+  position: absolute;
+  bottom: 5px;
+  margin: auto;
+  left: 0;
+  right: 0;
+}
