@@ -71,7 +71,7 @@
         <div class="col-sm-6 col-md-5">
           <h2 class="text-center">About Myself</h2>
           <br>
-          <p>l am hard-working code student who is looking for work opportunities in the web development industry. I am a fast learner, highly motivated and possess good communication skills. I have basic skills and knowledge in programming with HTML/CSS. I am interested in getting experience in web programming and improving myself.</p>
+          <p>l am hard-working code student who is looking for work opportunities in the web development industry. I am a fast learner, highly motivated and possess good communication skills. I have skills and knowledge in programming with HTML/CSS/Bootstrap, JavaScript/jQuery, MS SQL Server, PHP/Yii Framework, Photoshop/GIMP. I am interested in getting experience in web programming and improving myself.</p>
           <p>I have some personal skills, which I think is important for developing web solutions. I am fast learner, motivated, patient, responsible, analytical, adaptable, problem-solving.</p>
           <br>
           <div class="buttons text-center">
@@ -99,20 +99,34 @@
           <h2 class="text-center">My Projects</h2><br>
           <div class="row">
             <div class="col-md-4">
-              <a href="https://nikolai-and-elle-wedding.herokuapp.com"><img src="images/wedding-site.jpg" class="img-responsive" alt="Image 1" /></a>
+              <a href="https://nikolai-and-elle-wedding.herokuapp.com"><img src="images/wedding-site.jpg" class="img-responsive" alt="My Wedding" /></a>
               <h4>Wedding Invitation</h4>
               <p>This website I did for my wedding. I used it as a wedding invitation with time and place to celebrate. I used responsive design, some jQuery effects.</p>
             </div>
             <div class="col-md-4">
-              <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="Image 2" /></a>
+              <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
               <h4>ArtStone Fabricators</h4>
               <p>This web site was my final project in Web development and design 1 course. I used w3.css framework and some working forms.</p>
             </div>
             <div class="col-md-4">
-              <a href="http://buildinvest.ca"><img src="images/buildinvest-site.jpg" class="img-responsive" alt="Image 3" /></a>
+              <a href="http://buildinvest.ca"><img src="images/buildinvest-site.jpg" class="img-responsive" alt="Build Invest Group" /></a>
               <h4>Build Invest Group</h4>
               <p>This website is for my friends, who decided to open their business in construction. I used bootstrap framework. The website is still in progress and is not finished.</p>
             </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-4">
+              <a href="javascriptProjects/letters/letters.html"><img src="images/javascript-projects-site.png" class="img-responsive" alt="javascript Projects" /></a>
+              <h4>Javascript Project | Letters</h4>
+              <p>Plain Javascript application, showing DOM manipulation.</p>
+            </div>
+            <div class="col-md-4">
+              <a href="http://bcitcomp.ca/students/mkotok/S01/myindex.html"><img src="images/bcit-projects-site.png" class="img-responsive" alt="BCIT Projects" /></a>
+              <h4>BCIT Projects</h4>
+              <p>My BCIT home projects.</p>
+            </div>
+            <div class="col-md-4"></div>
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -126,9 +140,71 @@
         <div class="col-md-1"></div>
         <div class="col-md-10">
           <h2 class="text-center">Skills</h2>
+          <h5 class="text-center">From <strong>Entry Level</strong> (one circle) to <strong>Professional</strong> (7 circles)</h5>
           <p class="text-center">I study web design and development in university and by myself. My current skills include:</p>
 
           <br><br><br>
+          <div class="row">
+
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-php-plain"></i></i></p>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>Now I am learning PHP language. I know and understand basic concepts and syntax of the language.</p>
+            </div>
+
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-yii-plain-wordmark"></i></p>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>Along with PHP I am learning and working with Yii framework. I understand basic engine and concept of MVC.</p>
+            </div>
+
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-javascript-plain"></i></p>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>I am improoving my JavaScript skills. I know and understand how to work with functions, arrays, objects. I am familiar with main javascript features as DOM scripting, event handling, prototyping, graphics, AJAX, JSON.</p>
+            </div>
+
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-jquery-plain"></i></p>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>I can apply most of the jQuery features within a website to make it dynamic.</p>
+            </div>
+
+          </div>
+
+          <br><br>
           <div class="row">
 
             <div class="col-sm-3">
@@ -160,50 +236,17 @@
             </div>
 
             <div class="col-sm-3">
-              <p class="text-center"><i class="devicon-javascript-plain"></i></p>
-              <p class="skill-level text-center">Level:
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </p>
-              <p>I just starred to learn JavaScript. I know and understand basic concepts and syntax of the language.</p>
-            </div>
-
-            <div class="col-sm-3">
-              <p class="text-center"><i class="devicon-jquery-plain"></i></p>
+              <p class="text-center"><i class="devicon-bootstrap-plain"></i></p>
               <p class="skill-level text-center">Level:
                 <i class="fa fa-circle" aria-hidden="true"></i>
                 <i class="fa fa-circle" aria-hidden="true"></i>
                 <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </p>
-              <p>I can apply most of the jQuery features within a website to make it dynamic.</p>
-            </div>
-
-          </div>
-
-          <br><br>
-          <div class="row">
-
-            <div class="col-sm-3">
-              <p class="text-center"><i class="devicon-github-plain"></i>
-              <p class="skill-level text-center">Level:
                 <i class="fa fa-circle" aria-hidden="true"></i>
                 <i class="fa fa-circle" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
               </p>
-              <p>I am using GitHub to have full version control of my work.</p>
+              <p>I know how to use popular frameworks, like Bootstrap or w3.css. This website built using bootstrap technology.</p>
             </div>
 
             <div class="col-sm-3">
@@ -220,40 +263,24 @@
               <p>I have basic theoretical and practical knowledge to design and build simple database using SQL language itself, or popular database managment systems, like MS SQL Server, Access or MySQL Workbench</p>
             </div>
 
-            <div class="col-sm-3">
-              <p class="text-center"><i class="devicon-bootstrap-plain"></i></p>
-              <p class="skill-level text-center">Level:
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </p>
-              <p>I know how to use popular frameworks, like Bootstrap or w3.css. This website built using bootstrap technology.</p>
-            </div>
-
-            <div class="col-sm-3">
-              <p class="text-center"><i class="devicon-wordpress-plain"></i></p>
-              <p class="skill-level text-center">Level:
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-              </p>
-              <p>I have basic knowledge about content management systems, like WordPress or Joomla. I can use it and adjust for clients needs</p>
-            </div>
-
           </div>
 
           <div class="row">
 
             <br><br>
-            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-github-plain"></i>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>I am using GitHub to have full version control of my work.</p>
+            </div>
 
             <div class="col-sm-3">
               <p class="text-center"><i class="fa fa-windows" aria-hidden="true"></i></p>
@@ -273,17 +300,29 @@
               <p class="text-center"><i class="devicon-photoshop-plain"></i></p>
               <p class="skill-level text-center">Level:
                 <i class="fa fa-circle" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
-                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
                 <i class="fa fa-circle-thin" aria-hidden="true"></i>
               </p>
-              <p>I have basic knoledge of PhotoShop. I can work with pictures, create logos and prototype website design.</p>
+              <p>I have basic knoledge of Photoshop and GIMP. I can work with pictures, create logos and prototype website design.</p>
             </div>
 
-            <div class="col-sm-3"></div>
+            <div class="col-sm-3">
+              <p class="text-center"><i class="devicon-wordpress-plain"></i></p>
+              <p class="skill-level text-center">Level:
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+                <i class="fa fa-circle-thin" aria-hidden="true"></i>
+              </p>
+              <p>I have basic knowledge about content management systems, like WordPress or Joomla. I can use it and adjust for clients needs</p>
+            </div>
 
           </div>
 
@@ -349,7 +388,19 @@
             </thead>
             <tbody>
               <tr>
-                <td>Apr 2013 - Current</td>
+                <td>Jan 2017 - Current</td>
+                <td>SarkeDev Ltd.</td>
+                <td>
+                  <p>Junior Web Developer</p>
+                  <ul>
+                    <li>Working with web aplication based on Yii Framework</li>
+                    <li>Writing and fixing front-end code</li>
+                    <li>Javascript, jQuery, SCSS, Bootstrap coding</li>
+                  </ul>
+                </td>
+              </tr>
+              <tr>
+                <td>Apr 2013 - Mar 2017</td>
                 <td>Vlad Construction Corp.</td>
                 <td>
                   <p>Construction Worker</p>
