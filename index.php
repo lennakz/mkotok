@@ -508,7 +508,7 @@
           fwrite($fp, $count);
           fclose($fp); ?>
 
-        <div class="copyright">&copy; <?php echo date("Y");?> MKotok Design - visited <?=$count; ?> times. </div>
+        <div class="copyright">&copy; <?php echo date("Y");?> MK Development - visited <?=$count; ?> times. </div>
       </div>
     </div>
 
