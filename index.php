@@ -99,9 +99,9 @@
           <h2 class="text-center">My Projects</h2><br>
           <div class="row">
             <div class="col-md-4">
-              <a href="https://nikolai-and-elle-wedding.herokuapp.com"><img src="images/wedding-site.jpg" class="img-responsive" alt="My Wedding" /></a>
+              <a href="http://wedding-invitation.mkotok.com/"><img src="images/wedding-site.jpg" class="img-responsive" alt="My Wedding" /></a>
               <h4>Wedding Invitation</h4>
-              <p>This website I did for my wedding. I used it as a wedding invitation with time and place to celebrate. I used responsive design, some jQuery effects.</p>
+              <p>This website I did for my wedding. I used it as a wedding invitation with time and place to celebrate. I used responsive design, some jQuery effects. <a href="https://github.com/lennakz/Wedding">GitHub</a></p>
             </div>
             <div class="col-md-4">
               <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
@@ -111,7 +111,7 @@
             <div class="col-md-4">
               <a href="http://buildinvest.ca"><img src="images/buildinvest-site.jpg" class="img-responsive" alt="Build Invest Group" /></a>
               <h4>Build Invest Group</h4>
-              <p>This website is for my friends, who decided to open their business in construction. I used bootstrap framework. The website is still in progress and is not finished.</p>
+              <p>This website is for my friends, who decided to open their business in construction. I used bootstrap framework. The website is still in progress and is not finished. <a href="https://github.com/lennakz/buildinvest">GitHub</a></p>
             </div>
           </div>
           <br>
@@ -126,7 +126,11 @@
               <h4>BCIT Projects</h4>
               <p>My BCIT home projects.</p>
             </div>
-            <div class="col-md-4"></div>
+            <div class="col-md-4">
+              <a href="http://bcitproject.mkotok.com/"><img src="images/bcitproject-site.jpg" class="img-responsive" alt="BCIT Project" /></a>
+              <h4>BCIT Study Website Project</h4>
+              <p>Group class project for developing new look and features for BCIT Web Development program website. <a href="https://github.com/lennakz/bcitProject">GitHub</a></p>
+            </div>
           </div>
         </div>
         <div class="col-md-1"></div>
@@ -508,7 +512,7 @@
           fwrite($fp, $count);
           fclose($fp); ?>
 
-        <div class="copyright">&copy; <?php echo date("Y");?> MK Development - visited <?=$count; ?> times. </div>
+        <div class="copyright">&copy; <?php echo date("Y");?> MK Development - visited <?=$count; ?> times. <a href="https://github.com/lennakz/mkotok">Source</a></div>
       </div>
     </div>
 
