@@ -135,11 +135,9 @@
           <br>
           <div class="row">
             <div class="col-md-4">
-              <div class="col-md-4">
-                <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
-                <h4>ArtStone Fabricators</h4>
-                <p>This web site was my final project in Web development and design 1 course. I used w3.css framework and some working forms.</p>
-              </div>
+              <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
+              <h4>ArtStone Fabricators</h4>
+              <p>This web site was my final project in Web development and design 1 course. I used w3.css framework and some working forms.</p>
             </div>
           </div>
         </div>
