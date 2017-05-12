@@ -104,9 +104,9 @@
               <p>This website I did for my wedding. I used it as a wedding invitation with time and place to celebrate. I used responsive design, some jQuery effects. <a href="https://github.com/lennakz/Wedding">GitHub</a></p>
             </div>
             <div class="col-md-4">
-              <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
-              <h4>ArtStone Fabricators</h4>
-              <p>This web site was my final project in Web development and design 1 course. I used w3.css framework and some working forms.</p>
+              <a href="http://mynotes.mkotok.com/"><img src="images/mynotes-site.jpg" class="img-responsive" alt="myNotes" /></a>
+              <h4>myNotes</h4>
+              <p>Simple notebook or to do list, you can create notes and add or remove items inside. Can login and save your list for future. You can place your notes on google map and plan your day depends on locations. Has manifest.json, so you can use it like mobile app on your smartphones. <a href="https://github.com/lennakz/myNotes">GitHub</a></p>
             </div>
             <div class="col-md-4">
               <a href="http://buildinvest.ca"><img src="images/buildinvest-site.jpg" class="img-responsive" alt="Build Invest Group" /></a>
@@ -130,6 +130,16 @@
               <a href="http://bcitproject.mkotok.com/"><img src="images/bcitproject-site.jpg" class="img-responsive" alt="BCIT Project" /></a>
               <h4>BCIT Study Website Project</h4>
               <p>Group class project for developing new look and features for BCIT Web Development program website. <a href="https://github.com/lennakz/bcitProject">GitHub</a></p>
+            </div>
+          </div>
+          <br>
+          <div class="row">
+            <div class="col-md-4">
+              <div class="col-md-4">
+                <a href="artstone/index.html"><img src="images/artstone-site.jpg" class="img-responsive" alt="ArtStone Fabricators" /></a>
+                <h4>ArtStone Fabricators</h4>
+                <p>This web site was my final project in Web development and design 1 course. I used w3.css framework and some working forms.</p>
+              </div>
             </div>
           </div>
         </div>
