@@ -16,7 +16,7 @@
 		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 		<script src="js/script.js" type="text/javascript"></script>
 
-		<title>Mykola Kotok</title>
+		<title>Nikolai Kotok</title>
 
 		<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 		<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -37,7 +37,7 @@
 					<div class="col-md-1"></div>
 					<div class="col-md-10">
 						<div class="navbar-header">
-							<a class="navbar-brand brand-text" href="#footer">Mykola Kotok</a>
+							<a class="navbar-brand brand-text" href="#footer">Nikolai Kotok</a>
 							<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
 								<span class="icon-bar"></span>
 								<span class="icon-bar"></span>
@@ -119,7 +119,7 @@
 						<div class="col-md-4">
 							<a href="http://public-wc.mkotok.com/"><img src="images/wc-project-site.jpg" class="img-responsive" alt="Public WC and Drinking Fountains" /></a>
 							<h4>Vancouver WC and drinking fountains</h4>
-							<p>Simple project on PHP / Google Maps Javascript API to output public washrooms and drinking fountains on the map in Vancouver. <a href="https://github.com/lennakz/PublicWC">GitHub</a><</p>
+							<p>Simple project on PHP / Google Maps Javascript API to output public washrooms and drinking fountains on the map in Vancouver. <a href="https://github.com/lennakz/PublicWC">GitHub</a></p>
 						</div>
 						<div class="col-md-4">
 							<a href="javascriptProjects/letters/letters.html"><img src="images/javascript-projects-site.png" class="img-responsive" alt="javascript Projects" /></a>
