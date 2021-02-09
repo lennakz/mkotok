@@ -10,7 +10,7 @@ jobs:
         args: 'A new commit has been pushed.'
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_USERNAME: New PR Created
+        SLACK_USERNAME: NewPRCreated
         SLACK_CHANNEL: github-test
         SLACK_AVATAR: sender
-        SLACK_CUSTOM_PAYLOAD: '{"text": "This is a line of text in a channel.\nAnd this is another line of text."}'
+        SLACK_CUSTOM_PAYLOAD: '{"text": "Test.\nTest 2\nTest 3"}'
