@@ -5,7 +5,6 @@ jobs:
     runs-on: ubuntu-latest
     name: Slack notification
     steps:
-    - uses: actions/checkout@v2
       uses: Ilshidur/action-slack@2.0.2
       with:
         args: 'A new commit has been pushed.' # Optional
