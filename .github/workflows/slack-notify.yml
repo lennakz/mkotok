@@ -2,14 +2,12 @@ on: push
 name: Slack Notification Demo
 jobs:
   slackNotification:
-    runs-on: ubuntu-latest
     name: Slack notification
-    steps:
-      uses: Ilshidur/action-slack@2.0.2
-      with:
-        args: 'A new commit has been pushed.' # Optional
-      env:
-        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_USERNAME: ThisIsMyUsername # Optional. (defaults to webhook app)
-        SLACK_CHANNEL: general # Optional. (defaults to webhook)
-        SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
+    uses: Ilshidur/action-slack@2.0.2
+    with:
+      args: 'A new commit has been pushed.' # Optional
+    env:
+      SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+      SLACK_USERNAME: ThisIsMyUsername # Optional. (defaults to webhook app)
+      SLACK_CHANNEL: general # Optional. (defaults to webhook)
+      SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
