@@ -7,9 +7,10 @@ jobs:
     steps:
     - uses: Ilshidur/action-slack@2.0.2
       with:
-        args: 'A new commit has been pushed.' # Optional
+        args: 'A new commit has been pushed.'
       env:
         SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
-        SLACK_USERNAME: ThisIsMyUsername # Optional. (defaults to webhook app)
-        SLACK_CHANNEL: general # Optional. (defaults to webhook)
-        SLACK_AVATAR: repository # Optional. can be (repository, sender, an URL) (defaults to webhook app avatar)
+        SLACK_USERNAME: New PR Created
+        SLACK_CHANNEL: github-test
+        SLACK_AVATAR: sender
+        SLACK_CUSTOM_PAYLOAD: '{"text": "This is a line of text in a channel.\nAnd this is another line of text."}'
