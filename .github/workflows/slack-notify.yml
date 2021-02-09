@@ -1,0 +1,16 @@
+on: push
+name: Slack Notification Demo
+jobs:
+  slackNotification:
+    name: Slack notification
+    runs-on: ubuntu-latest
+    steps:
+    - uses: Ilshidur/action-slack@2.0.2
+      with:
+        args: 'A new commit has been pushed.'
+      env:
+        SLACK_WEBHOOK: ${{ secrets.SLACK_WEBHOOK }}
+        SLACK_USERNAME: NewPRCreated
+        SLACK_CHANNEL: github-test
+        SLACK_AVATAR: sender
+        SLACK_CUSTOM_PAYLOAD: '{"text": "Test.\nTest 2\nTest 3"}'
